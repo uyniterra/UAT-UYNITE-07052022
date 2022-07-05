@@ -10,7 +10,6 @@ ADD UnitityEvent-0.0.1-SNAPSHOT.jar target/UnitityEvent-0.0.1-SNAPSHOT.jar
 ADD Unitityinstance-0.0.1-SNAPSHOT.jar target/Unitityinstance-0.0.1-SNAPSHOT.jar
 ADD UnititySponsorde-0.0.1-SNAPSHOT.jar target/UnititySponsorde-0.0.1-SNAPSHOT.jar
 
-
 ENTRYPOINT ["java","-jar","target/uynite-authenticate-0.0.7-SNAPSHOT.jar"]
 ENTRYPOINT ["java","-jar","target/UnitityPost-0.0.1-SNAPSHOT.jar"]
 ENTRYPOINT ["java","-jar","target/UnitityFriend-0.0.1-SNAPSHOT.jar"]

@@ -8,6 +8,7 @@ EXPOSE 8085
 EXPOSE 8086
 EXPOSE 8087
 
+
 RUN mkdir target
 ADD uynite-authenticate-0.0.7-SNAPSHOT.jar target/uynite-authenticate-0.0.7-SNAPSHOT.jar
 ADD UnitityPost-0.0.1-SNAPSHOT.jar target/UnitityPost-0.0.1-SNAPSHOT.jar

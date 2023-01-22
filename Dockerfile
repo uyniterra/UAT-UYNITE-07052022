@@ -1,3 +1,4 @@
+FROM centos:8
 FROM openjdk:8
 EXPOSE 8080
 EXPOSE 8081
